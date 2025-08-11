@@ -1,6 +1,6 @@
 <?php
 namespace DhananjayDev;
-
+// To practice Enums implementation as a type
     class Cards{
         private Suit $suit;
         private int $number;

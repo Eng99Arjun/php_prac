@@ -1,6 +1,6 @@
 <?php
 namespace DhananjayDev;
-
+// class to practice static members functionality 
 class AudioClip
 {
     private static int $maxClipDurationSeconds = -1;
