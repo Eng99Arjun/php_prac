@@ -11,7 +11,14 @@
             $this->setPrice($price);
         }
 
+        public function __toString()
+        {
+            return "Product Name: $this->name Product Price: $this->price";
+        }
+
         public function setName($name): void{
+            
+            if(empty($name)) throw new \InvalidArgumentException('Invalid name');
             $this->name = $name;
         }
         public function setPrice($price): void{
@@ -22,10 +29,10 @@
             $this->price = $price;
         }
 
-        public function getName($name): string{
+        public function getName(): string{
             return $this->name;
         }
-        public function getPrice($price): string{
+        public function getPrice(): string{
             return $this->price;
         }
     }
