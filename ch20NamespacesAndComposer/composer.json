@@ -1,11 +1,15 @@
 {
+    "name": "guestl/ch20namespaces-and-composer",
     "autoload": {
-    "psr-4": {
-    "Mattsmithdev\\": "src"
-    }
-},
-    "require": {
-        "markrogoyski/math-php": "^2.11"
-    }
+        "psr-4": {
+            "DhananjayDev\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dhananjay Maurya",
+            "email": "dhananjay.99jb@gmail.com"
+        }
+    ],
+    "require": {}
 }
-

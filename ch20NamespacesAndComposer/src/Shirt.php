@@ -1,6 +1,7 @@
 <?php
-    namespace Mattsmithdev;
-    class Shirt
+namespace DhananjayDev;
+
+class Shirt
     {
         private string $type ='t-shirt';
         
@@ -15,4 +16,3 @@
         }
     }
 
-?>
