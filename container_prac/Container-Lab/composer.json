@@ -1,0 +1,15 @@
+{
+    "name": "guestl/container-lab",
+    "autoload": {
+        "psr-4": {
+            "Guestl\\ContainerLab\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dhananjay Maurya",
+            "email": "dhananjay.99jb@gmail.com"
+        }
+    ],
+    "require": {}
+}

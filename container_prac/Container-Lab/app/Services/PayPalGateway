@@ -1,0 +1,11 @@
+<?php
+
+namespace App\Services;
+
+class PayPalGateway implements Payment
+{
+    public function pay($amount): string
+    {
+        return "Paid $amount using PayPal";
+    }
+}
